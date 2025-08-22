@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 5 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-failed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>C:\Users\balaji.vijayakumar\Workspace_Botree\SSFA_PortalIntegration\SSFA_Portal\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">9 methods, 5 failed,   4 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.botree.MarchCR_Test.StockTakeOptionInOrderBookingTest" class="method navigator-link" hash-for-method="userAbleToDoOrderBookingAlongWithStockTakeDisableInCompanyUser({Directpartyorsuperstockist=TestDistributor2, UserNameCompany=DemoSO, UserNameDsr=Demords1~SM001, Pa...)">userAbleToDoOrderBookingAlongWithStockTakeDisableInCompanyUser({Directpartyorsuperstockist=TestDistributor2, UserNameCompany=DemoSO, UserNameDsr=Demords1~SM001, Pa...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.botree.MarchCR_Test.StockTakeOptionInOrderBookingTest" class="method navigator-link" hash-for-method="userAbleToDoOrderBookingAlongWithStockTakeEnabledInCompanyUser({Directpartyorsuperstockist=TestDistributor2, UserNameCompany=DemoSO, UserNameDsr=Demords1~SM001, Pa...)">userAbleToDoOrderBookingAlongWithStockTakeEnabledInCompanyUser({Directpartyorsuperstockist=TestDistributor2, UserNameCompany=DemoSO, UserNameDsr=Demords1~SM001, Pa...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.botree.MarchCR_Test.StockTakeOptionInOrderBookingTest" class="method navigator-link" hash-for-method="userAbleToVerifyBookOrderAlongWithStockTakeDisableInDSR({Directpartyorsuperstockist=TestDistributor2, UserNameCompany=DemoSO, UserNameDsr=Demords1~SM001, Pa...)">userAbleToVerifyBookOrderAlongWithStockTakeDisableInDSR({Directpartyorsuperstockist=TestDistributor2, UserNameCompany=DemoSO, UserNameDsr=Demords1~SM001, Pa...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.botree.MarchCR_Test.StockTakeOptionInOrderBookingTest" class="method navigator-link" hash-for-method="verifyUserAbleToBookOrderAlongWithStockTakeDisableInMDSR({Directpartyorsuperstockist=TestDistributor2, UserNameCompany=DemoSO, UserNameDsr=Demords1~SM001, Pa...)">verifyUserAbleToBookOrderAlongWithStockTakeDisableInMDSR({Directpartyorsuperstockist=TestDistributor2, UserNameCompany=DemoSO, UserNameDsr=Demords1~SM001, Pa...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.botree.MarchCR_Test.StockTakeOptionInOrderBookingTest" class="method navigator-link" hash-for-method="verifyUserAbleToBookOrderAlongWithStockTakeEnabledInMDSR({Directpartyorsuperstockist=TestDistributor2, UserNameCompany=DemoSO, UserNameDsr=Demords1~SM001, Pa...)">verifyUserAbleToBookOrderAlongWithStockTakeEnabledInMDSR({Directpartyorsuperstockist=TestDistributor2, UserNameCompany=DemoSO, UserNameDsr=Demords1~SM001, Pa...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.botree.SSFA_Test.InitialLoginMobileTest" class="method navigator-link" hash-for-method="initialSetup({UOM=PCS, AppconfHeader=Application Configuration, PasswordS=$uperAdmin, PoNumber=1234, PasswordA=12...)">initialSetup({UOM=PCS, AppconfHeader=Application Configuration, PasswordS=$uperAdmin, PoNumber=1234, PasswordA=12...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.botree.MarchCR_Test.StockTakeOptionInOrderBookingTest" class="method navigator-link" hash-for-method="userAbleToDisableStockTakeOptionInOrderBookingScreen({Directpartyorsuperstockist=TestDistributor2, UserNameCompany=DemoSO, UserNameDsr=Demords1~SM001, Pa...)">userAbleToDisableStockTakeOptionInOrderBookingScreen({Directpartyorsuperstockist=TestDistributor2, UserNameCompany=DemoSO, UserNameDsr=Demords1~SM001, Pa...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.botree.MarchCR_Test.StockTakeOptionInOrderBookingTest" class="method navigator-link" hash-for-method="userAbleToEnableStockTakeOptionInOrderBookingScreen({Directpartyorsuperstockist=TestDistributor2, UserNameCompany=DemoSO, UserNameDsr=Demords1~SM001, Pa...)">userAbleToEnableStockTakeOptionInOrderBookingScreen({Directpartyorsuperstockist=TestDistributor2, UserNameCompany=DemoSO, UserNameDsr=Demords1~SM001, Pa...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.botree.MarchCR_Test.StockTakeOptionInOrderBookingTest" class="method navigator-link" hash-for-method="userAbleToVerifyBookOrderAlongWithStockTakeEnabledInDSR({Directpartyorsuperstockist=TestDistributor2, UserNameCompany=DemoSO, UserNameDsr=Demords1~SM001, Pa...)">userAbleToVerifyBookOrderAlongWithStockTakeEnabledInDSR({Directpartyorsuperstockist=TestDistributor2, UserNameCompany=DemoSO, UserNameDsr=Demords1~SM001, Pa...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.botree.MarchCR_Test.StockTakeOptionInOrderBookingTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="userAbleToDoOrderBookingAlongWithStockTakeDisableInCompanyUser({Directpartyorsuperstockist=TestDistributor2, UserNameCompany=DemoSO, UserNameDsr=Demords1~SM001, Pa...)">
+                  </a> <!-- userAbleToDoOrderBookingAlongWithStockTakeDisableInCompanyUser({Directpartyorsuperstockist=TestDistributor2, UserNameCompany=DemoSO, UserNameDsr=Demords1~SM001, Pa...) -->
+                  <span class="method-name">userAbleToDoOrderBookingAlongWithStockTakeDisableInCompanyUser</span>
+                  <span class="parameters">({Directpartyorsuperstockist=TestDistributor2, UserNameCompany=DemoSO, UserNameDsr=Demords1~SM001, PasswordMdsr=Admin@123, AppconfHeader=Application Configuration, PasswordS=$uperAdmin, headerStationMaster=Please Select Station Master, Quantity=4, headerMarketVisit=Market Visit, titleMarketVisit=Market Visit, UserNameS=SuperAdmin, distributor=TestDistributor1, UOM=PCS, quantitiy1=1, StockTakeQty=1, smtDistributor=MAHAMAYA ENTERPRISES, quantitiy2=5, headerFilter=Filter, salesman=Salesman1, UserNameMdsr=SM001, PasswordCompany=Admin@123, StockTakeUOM=PCS, PasswordDsr=1234})</span>
+                  <div class="stack-trace">java.lang.Exception: Sendkeys not performed. [[AndroidDriver:  on ANDROID (d697b9ba-2294-41db-b3f9-4b8ab2003add)] -&gt; id: com.botree.mobilitysfa.preprodstage:id/password_edt]
+	at com.botree.utility.AndroidCommonUtility.sendKeys(AndroidCommonUtility.java:174)
+	at com.botree.SSFA.InitialLoginPage.setActivity(InitialLoginPage.java:142)
+	at com.botree.MarchCR_Test.StockTakeOptionInOrderBookingTest.userAbleToDoOrderBookingAlongWithStockTakeDisableInCompanyUser(StockTakeOptionInOrderBookingTest.java:303)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="userAbleToDoOrderBookingAlongWithStockTakeEnabledInCompanyUser({Directpartyorsuperstockist=TestDistributor2, UserNameCompany=DemoSO, UserNameDsr=Demords1~SM001, Pa...)">
+                  </a> <!-- userAbleToDoOrderBookingAlongWithStockTakeEnabledInCompanyUser({Directpartyorsuperstockist=TestDistributor2, UserNameCompany=DemoSO, UserNameDsr=Demords1~SM001, Pa...) -->
+                  <span class="method-name">userAbleToDoOrderBookingAlongWithStockTakeEnabledInCompanyUser</span>
+                  <span class="parameters">({Directpartyorsuperstockist=TestDistributor2, UserNameCompany=DemoSO, UserNameDsr=Demords1~SM001, PasswordMdsr=Admin@123, AppconfHeader=Application Configuration, PasswordS=$uperAdmin, headerStationMaster=Please Select Station Master, Quantity=4, headerMarketVisit=Market Visit, titleMarketVisit=Market Visit, UserNameS=SuperAdmin, distributor=TestDistributor1, UOM=PCS, quantitiy1=1, StockTakeQty=1, smtDistributor=MAHAMAYA ENTERPRISES, quantitiy2=5, headerFilter=Filter, salesman=Salesman1, UserNameMdsr=SM001, PasswordCompany=Admin@123, StockTakeUOM=PCS, PasswordDsr=1234})</span>
+                  <div class="stack-trace">java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)
+	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:248)
+	at java.base/java.util.Objects.checkIndex(Objects.java:372)
+	at java.base/java.util.ArrayList.get(ArrayList.java:459)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementListHandler.invoke(LocatingElementListHandler.java:39)
+	at com.sun.proxy.$Proxy25.get(Unknown Source)
+	at com.botree.MarchCR.StockTakeOptionInOrderBooking.verifyRetailerisDisplayed1(StockTakeOptionInOrderBooking.java:1119)
+	at com.botree.MarchCR_Test.StockTakeOptionInOrderBookingTest.userAbleToDoOrderBookingAlongWithStockTakeEnabledInCompanyUser(StockTakeOptionInOrderBookingTest.java:162)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="userAbleToVerifyBookOrderAlongWithStockTakeDisableInDSR({Directpartyorsuperstockist=TestDistributor2, UserNameCompany=DemoSO, UserNameDsr=Demords1~SM001, Pa...)">
+                  </a> <!-- userAbleToVerifyBookOrderAlongWithStockTakeDisableInDSR({Directpartyorsuperstockist=TestDistributor2, UserNameCompany=DemoSO, UserNameDsr=Demords1~SM001, Pa...) -->
+                  <span class="method-name">userAbleToVerifyBookOrderAlongWithStockTakeDisableInDSR</span>
+                  <span class="parameters">({Directpartyorsuperstockist=TestDistributor2, UserNameCompany=DemoSO, UserNameDsr=Demords1~SM001, PasswordMdsr=Admin@123, AppconfHeader=Application Configuration, PasswordS=$uperAdmin, headerStationMaster=Please Select Station Master, Quantity=4, headerMarketVisit=Market Visit, titleMarketVisit=Market Visit, UserNameS=SuperAdmin, distributor=TestDistributor1, UOM=PCS, quantitiy1=1, StockTakeQty=1, smtDistributor=MAHAMAYA ENTERPRISES, quantitiy2=5, headerFilter=Filter, salesman=Salesman1, UserNameMdsr=SM001, PasswordCompany=Admin@123, StockTakeUOM=PCS, PasswordDsr=1234})</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [false] but found [true]
+	at com.botree.MarchCR.StockTakeOptionInOrderBooking.verifyStockTakeTextBoxIsDisabled(StockTakeOptionInOrderBooking.java:469)
+	at com.botree.MarchCR_Test.StockTakeOptionInOrderBookingTest.userAbleToVerifyBookOrderAlongWithStockTakeDisableInDSR(StockTakeOptionInOrderBookingTest.java:229)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyUserAbleToBookOrderAlongWithStockTakeDisableInMDSR({Directpartyorsuperstockist=TestDistributor2, UserNameCompany=DemoSO, UserNameDsr=Demords1~SM001, Pa...)">
+                  </a> <!-- verifyUserAbleToBookOrderAlongWithStockTakeDisableInMDSR({Directpartyorsuperstockist=TestDistributor2, UserNameCompany=DemoSO, UserNameDsr=Demords1~SM001, Pa...) -->
+                  <span class="method-name">verifyUserAbleToBookOrderAlongWithStockTakeDisableInMDSR</span>
+                  <span class="parameters">({Directpartyorsuperstockist=TestDistributor2, UserNameCompany=DemoSO, UserNameDsr=Demords1~SM001, PasswordMdsr=Admin@123, AppconfHeader=Application Configuration, PasswordS=$uperAdmin, headerStationMaster=Please Select Station Master, Quantity=4, headerMarketVisit=Market Visit, titleMarketVisit=Market Visit, UserNameS=SuperAdmin, distributor=TestDistributor1, UOM=PCS, quantitiy1=1, StockTakeQty=1, smtDistributor=MAHAMAYA ENTERPRISES, quantitiy2=5, headerFilter=Filter, salesman=Salesman1, UserNameMdsr=SM001, PasswordCompany=Admin@123, StockTakeUOM=PCS, PasswordDsr=1234})</span>
+                  <div class="stack-trace">org.openqa.selenium.InvalidSelectorException: org.eclipse.wst.xml.xpath2.processor.XPathParserException: CUP parser error: Parser error: line 1 col 4: Visit
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Build info: version: &apos;4.13.0&apos;, revision: &apos;ba948ece5b*&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.11&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [d697b9ba-2294-41db-b3f9-4b8ab2003add, findElement {using=xpath, value=SS Visit}]
+Capabilities {appium:adbExecTimeout: 20000, appium:app: C:\Users\balaji.vijayakumar..., appium:appPackage: com.botree.mobilitysfa.prep..., appium:automationName: UIAutomator2, appium:databaseEnabled: false, appium:desired: {adbExecTimeout: 20000, app: C:\Users\balaji.vijayakumar..., automationName: UIAutomator2, deviceName: 4c059a39, newCommandTimeout: 1800, platformName: ANDROID, systemPort: 8201, udid: 4c059a39}, appium:deviceApiLevel: 33, appium:deviceManufacturer: OnePlus, appium:deviceModel: CPH2487, appium:deviceName: 4c059a39, appium:deviceScreenDensity: 476, appium:deviceScreenSize: 1240x2772, appium:deviceUDID: 4c059a39, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:newCommandTimeout: 1800, appium:pixelRatio: 2.9750001, appium:platformVersion: 13, appium:statBarHeight: 110, appium:systemPort: 8201, appium:takesScreenshot: true, appium:udid: 4c059a39, appium:viewportRect: {height: 2421, left: 0, top: 110, width: 1240}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: d697b9ba-2294-41db-b3f9-4b8ab2003add
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:262)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy24.toString(Unknown Source)
+	at java.base/java.lang.String.valueOf(String.java:2951)
+	at com.botree.utility.AndroidCommonUtility.clickElement(AndroidCommonUtility.java:184)
+	at com.botree.MarchCR.StockTakeOptionInOrderBooking.clickSSVisit(StockTakeOptionInOrderBooking.java:606)
+	at com.botree.MarchCR_Test.StockTakeOptionInOrderBookingTest.verifyUserAbleToBookOrderAlongWithStockTakeDisableInMDSR(StockTakeOptionInOrderBookingTest.java:253)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyUserAbleToBookOrderAlongWithStockTakeEnabledInMDSR({Directpartyorsuperstockist=TestDistributor2, UserNameCompany=DemoSO, UserNameDsr=Demords1~SM001, Pa...)">
+                  </a> <!-- verifyUserAbleToBookOrderAlongWithStockTakeEnabledInMDSR({Directpartyorsuperstockist=TestDistributor2, UserNameCompany=DemoSO, UserNameDsr=Demords1~SM001, Pa...) -->
+                  <span class="method-name">verifyUserAbleToBookOrderAlongWithStockTakeEnabledInMDSR</span>
+                  <span class="parameters">({Directpartyorsuperstockist=TestDistributor2, UserNameCompany=DemoSO, UserNameDsr=Demords1~SM001, PasswordMdsr=Admin@123, AppconfHeader=Application Configuration, PasswordS=$uperAdmin, headerStationMaster=Please Select Station Master, Quantity=4, headerMarketVisit=Market Visit, titleMarketVisit=Market Visit, UserNameS=SuperAdmin, distributor=TestDistributor1, UOM=PCS, quantitiy1=1, StockTakeQty=1, smtDistributor=MAHAMAYA ENTERPRISES, quantitiy2=5, headerFilter=Filter, salesman=Salesman1, UserNameMdsr=SM001, PasswordCompany=Admin@123, StockTakeUOM=PCS, PasswordDsr=1234})</span>
+                  <div class="stack-trace">org.openqa.selenium.InvalidSelectorException: org.eclipse.wst.xml.xpath2.processor.XPathParserException: CUP parser error: Parser error: line 1 col 4: Visit
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Build info: version: &apos;4.13.0&apos;, revision: &apos;ba948ece5b*&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.11&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [d697b9ba-2294-41db-b3f9-4b8ab2003add, findElement {using=xpath, value=SS Visit}]
+Capabilities {appium:adbExecTimeout: 20000, appium:app: C:\Users\balaji.vijayakumar..., appium:appPackage: com.botree.mobilitysfa.prep..., appium:automationName: UIAutomator2, appium:databaseEnabled: false, appium:desired: {adbExecTimeout: 20000, app: C:\Users\balaji.vijayakumar..., automationName: UIAutomator2, deviceName: 4c059a39, newCommandTimeout: 1800, platformName: ANDROID, systemPort: 8201, udid: 4c059a39}, appium:deviceApiLevel: 33, appium:deviceManufacturer: OnePlus, appium:deviceModel: CPH2487, appium:deviceName: 4c059a39, appium:deviceScreenDensity: 476, appium:deviceScreenSize: 1240x2772, appium:deviceUDID: 4c059a39, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:newCommandTimeout: 1800, appium:pixelRatio: 2.9750001, appium:platformVersion: 13, appium:statBarHeight: 110, appium:systemPort: 8201, appium:takesScreenshot: true, appium:udid: 4c059a39, appium:viewportRect: {height: 2421, left: 0, top: 110, width: 1240}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: d697b9ba-2294-41db-b3f9-4b8ab2003add
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:262)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy24.toString(Unknown Source)
+	at java.base/java.lang.String.valueOf(String.java:2951)
+	at com.botree.utility.AndroidCommonUtility.clickElement(AndroidCommonUtility.java:184)
+	at com.botree.MarchCR.StockTakeOptionInOrderBooking.clickSSVisit(StockTakeOptionInOrderBooking.java:606)
+	at com.botree.MarchCR_Test.StockTakeOptionInOrderBookingTest.verifyUserAbleToBookOrderAlongWithStockTakeEnabledInMDSR(StockTakeOptionInOrderBookingTest.java:93)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.botree.MarchCR_Test.StockTakeOptionInOrderBookingTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="userAbleToDisableStockTakeOptionInOrderBookingScreen({Directpartyorsuperstockist=TestDistributor2, UserNameCompany=DemoSO, UserNameDsr=Demords1~SM001, Pa...)">
+                  </a> <!-- userAbleToDisableStockTakeOptionInOrderBookingScreen({Directpartyorsuperstockist=TestDistributor2, UserNameCompany=DemoSO, UserNameDsr=Demords1~SM001, Pa...) -->
+                  <span class="method-name">userAbleToDisableStockTakeOptionInOrderBookingScreen</span>
+                  <span class="parameters">({Directpartyorsuperstockist=TestDistributor2, UserNameCompany=DemoSO, UserNameDsr=Demords1~SM001, PasswordMdsr=Admin@123, AppconfHeader=Application Configuration, PasswordS=$uperAdmin, headerStationMaster=Please Select Station Master, Quantity=4, headerMarketVisit=Market Visit, titleMarketVisit=Market Visit, UserNameS=SuperAdmin, distributor=TestDistributor1, UOM=PCS, quantitiy1=1, StockTakeQty=1, smtDistributor=MAHAMAYA ENTERPRISES, quantitiy2=5, headerFilter=Filter, salesman=Salesman1, UserNameMdsr=SM001, PasswordCompany=Admin@123, StockTakeUOM=PCS, PasswordDsr=1234})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="userAbleToEnableStockTakeOptionInOrderBookingScreen({Directpartyorsuperstockist=TestDistributor2, UserNameCompany=DemoSO, UserNameDsr=Demords1~SM001, Pa...)">
+                  </a> <!-- userAbleToEnableStockTakeOptionInOrderBookingScreen({Directpartyorsuperstockist=TestDistributor2, UserNameCompany=DemoSO, UserNameDsr=Demords1~SM001, Pa...) -->
+                  <span class="method-name">userAbleToEnableStockTakeOptionInOrderBookingScreen</span>
+                  <span class="parameters">({Directpartyorsuperstockist=TestDistributor2, UserNameCompany=DemoSO, UserNameDsr=Demords1~SM001, PasswordMdsr=Admin@123, AppconfHeader=Application Configuration, PasswordS=$uperAdmin, headerStationMaster=Please Select Station Master, Quantity=4, headerMarketVisit=Market Visit, titleMarketVisit=Market Visit, UserNameS=SuperAdmin, distributor=TestDistributor1, UOM=PCS, quantitiy1=1, StockTakeQty=1, smtDistributor=MAHAMAYA ENTERPRISES, quantitiy2=5, headerFilter=Filter, salesman=Salesman1, UserNameMdsr=SM001, PasswordCompany=Admin@123, StockTakeUOM=PCS, PasswordDsr=1234})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="userAbleToVerifyBookOrderAlongWithStockTakeEnabledInDSR({Directpartyorsuperstockist=TestDistributor2, UserNameCompany=DemoSO, UserNameDsr=Demords1~SM001, Pa...)">
+                  </a> <!-- userAbleToVerifyBookOrderAlongWithStockTakeEnabledInDSR({Directpartyorsuperstockist=TestDistributor2, UserNameCompany=DemoSO, UserNameDsr=Demords1~SM001, Pa...) -->
+                  <span class="method-name">userAbleToVerifyBookOrderAlongWithStockTakeEnabledInDSR</span>
+                  <span class="parameters">({Directpartyorsuperstockist=TestDistributor2, UserNameCompany=DemoSO, UserNameDsr=Demords1~SM001, PasswordMdsr=Admin@123, AppconfHeader=Application Configuration, PasswordS=$uperAdmin, headerStationMaster=Please Select Station Master, Quantity=4, headerMarketVisit=Market Visit, titleMarketVisit=Market Visit, UserNameS=SuperAdmin, distributor=TestDistributor1, UOM=PCS, quantitiy1=1, StockTakeQty=1, smtDistributor=MAHAMAYA ENTERPRISES, quantitiy2=5, headerFilter=Filter, salesman=Salesman1, UserNameMdsr=SM001, PasswordCompany=Admin@123, StockTakeUOM=PCS, PasswordDsr=1234})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.botree.SSFA_Test.InitialLoginMobileTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="initialSetup({UOM=PCS, AppconfHeader=Application Configuration, PasswordS=$uperAdmin, PoNumber=1234, PasswordA=12...)">
+                  </a> <!-- initialSetup({UOM=PCS, AppconfHeader=Application Configuration, PasswordS=$uperAdmin, PoNumber=1234, PasswordA=12...) -->
+                  <span class="method-name">initialSetup</span>
+                  <span class="parameters">({UOM=PCS, AppconfHeader=Application Configuration, PasswordS=$uperAdmin, PoNumber=1234, PasswordA=1234, Quantity=2, UserNameS=SuperAdmin, UserNameA=DemoRDS1~SM001, poRemarks=Hi})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\balaji.vijayakumar\Workspace_Botree\SSFA_PortalIntegration\SSFA_Portal\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.botree.ExtentReportListener.Listener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test suite1&quot;&gt;
+    &lt;parameter name=&quot;deviceName&quot; value=&quot;4c059a39&quot;/&gt;
+    &lt;parameter name=&quot;url&quot; value=&quot;http://127.0.0.1:4723&quot;/&gt;
+    &lt;parameter name=&quot;systemPort&quot; value=&quot;8201&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.botree.SSFA_Test.InitialLoginMobileTest&quot;/&gt;
+      &lt;class name=&quot;com.botree.MarchCR_Test.StockTakeOptionInOrderBookingTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test suite1 --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test suite1 (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(9);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'userAbleToVerifyBookOrderAlongWithStockTakeDisableInDSR')
+data.setCell(0, 2, 'com.botree.MarchCR_Test.StockTakeOptionInOrderBookingTest')
+data.setCell(0, 3, 313195);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'userAbleToVerifyBookOrderAlongWithStockTakeEnabledInDSR')
+data.setCell(1, 2, 'com.botree.MarchCR_Test.StockTakeOptionInOrderBookingTest')
+data.setCell(1, 3, 293911);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'userAbleToDoOrderBookingAlongWithStockTakeEnabledInCompanyUser')
+data.setCell(2, 2, 'com.botree.MarchCR_Test.StockTakeOptionInOrderBookingTest')
+data.setCell(2, 3, 157385);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verifyUserAbleToBookOrderAlongWithStockTakeEnabledInMDSR')
+data.setCell(3, 2, 'com.botree.MarchCR_Test.StockTakeOptionInOrderBookingTest')
+data.setCell(3, 3, 127774);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'initialSetup')
+data.setCell(4, 2, 'com.botree.SSFA_Test.InitialLoginMobileTest')
+data.setCell(4, 3, 127752);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'verifyUserAbleToBookOrderAlongWithStockTakeDisableInMDSR')
+data.setCell(5, 2, 'com.botree.MarchCR_Test.StockTakeOptionInOrderBookingTest')
+data.setCell(5, 3, 119122);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'userAbleToDoOrderBookingAlongWithStockTakeDisableInCompanyUser')
+data.setCell(6, 2, 'com.botree.MarchCR_Test.StockTakeOptionInOrderBookingTest')
+data.setCell(6, 3, 73319);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'userAbleToEnableStockTakeOptionInOrderBookingScreen')
+data.setCell(7, 2, 'com.botree.MarchCR_Test.StockTakeOptionInOrderBookingTest')
+data.setCell(7, 3, 21103);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'userAbleToDisableStockTakeOptionInOrderBookingScreen')
+data.setCell(8, 2, 'com.botree.MarchCR_Test.StockTakeOptionInOrderBookingTest')
+data.setCell(8, 3, 20544);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 20 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">3 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.botree.MarchCR_Test.StockTakeOptionInOrderBookingTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+                <span class="ignored-method-name">initializeAppiumDriver</span>
+                <br/>
+                <span class="ignored-method-name">tearDownMobileDriver</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.botree.SSFA_Test.InitialLoginMobileTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-test before">
+                <span class="method-name">initializeAppiumDriver(4c059a39, 8201, http://127.0.0.1:4723)</span>
+                <span class="method-start">161 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpWebDriver</span>
+                <span class="method-start">13545 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">initialSetup({UOM=PCS, AppconfHeader=Application Configuration, PasswordS=$uperAdmin, PoNumber=1234, PasswordA=12...)</span>
+                <span class="method-start">29666 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownWebDriver</span>
+                <span class="method-start">157438 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.botree.MarchCR_Test.StockTakeOptionInOrderBookingTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpWebDriver</span>
+                <span class="method-start">158451 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">userAbleToEnableStockTakeOptionInOrderBookingScreen({Directpartyorsuperstockist=TestDistributor2, UserNameCompany=DemoSO, UserNameDsr=Demords1~SM001, Pa...)</span>
+                <span class="method-start">172415 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownWebDriver</span>
+                <span class="method-start">193523 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpWebDriver</span>
+                <span class="method-start">194456 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">userAbleToVerifyBookOrderAlongWithStockTakeEnabledInDSR({Directpartyorsuperstockist=TestDistributor2, UserNameCompany=DemoSO, UserNameDsr=Demords1~SM001, Pa...)</span>
+                <span class="method-start">210367 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownWebDriver</span>
+                <span class="method-start">504280 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpWebDriver</span>
+                <span class="method-start">505044 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyUserAbleToBookOrderAlongWithStockTakeEnabledInMDSR({Directpartyorsuperstockist=TestDistributor2, UserNameCompany=DemoSO, UserNameDsr=Demords1~SM001, Pa...)</span>
+                <span class="method-start">519430 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownWebDriver</span>
+                <span class="method-start">649283 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpWebDriver</span>
+                <span class="method-start">650155 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">userAbleToDoOrderBookingAlongWithStockTakeEnabledInCompanyUser({Directpartyorsuperstockist=TestDistributor2, UserNameCompany=DemoSO, UserNameDsr=Demords1~SM001, Pa...)</span>
+                <span class="method-start">664220 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownWebDriver</span>
+                <span class="method-start">824809 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpWebDriver</span>
+                <span class="method-start">825546 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">userAbleToDisableStockTakeOptionInOrderBookingScreen({Directpartyorsuperstockist=TestDistributor2, UserNameCompany=DemoSO, UserNameDsr=Demords1~SM001, Pa...)</span>
+                <span class="method-start">840352 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownWebDriver</span>
+                <span class="method-start">860899 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpWebDriver</span>
+                <span class="method-start">861639 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">userAbleToVerifyBookOrderAlongWithStockTakeDisableInDSR({Directpartyorsuperstockist=TestDistributor2, UserNameCompany=DemoSO, UserNameDsr=Demords1~SM001, Pa...)</span>
+                <span class="method-start">875102 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownWebDriver</span>
+                <span class="method-start">1190155 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpWebDriver</span>
+                <span class="method-start">1190906 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyUserAbleToBookOrderAlongWithStockTakeDisableInMDSR({Directpartyorsuperstockist=TestDistributor2, UserNameCompany=DemoSO, UserNameDsr=Demords1~SM001, Pa...)</span>
+                <span class="method-start">1206806 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownWebDriver</span>
+                <span class="method-start">1327844 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpWebDriver</span>
+                <span class="method-start">1328585 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">userAbleToDoOrderBookingAlongWithStockTakeDisableInCompanyUser({Directpartyorsuperstockist=TestDistributor2, UserNameCompany=DemoSO, UserNameDsr=Demords1~SM001, Pa...)</span>
+                <span class="method-start">1342924 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownWebDriver</span>
+                <span class="method-start">1417966 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.botree.SSFA_Test.InitialLoginMobileTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">tearDownMobileDriver</span>
+                <span class="method-start">1418740 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
